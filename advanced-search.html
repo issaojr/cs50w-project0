@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -13,12 +14,16 @@
         </nav>
     </header>
     <main>
-        <form action="https://www.google.com/search" method="GET">
-            <input type="text" name="as_q" placeholder="All these words:">
-            <input type="text" name="as_epq" placeholder="This exact word or phrase:">
-            <input type="text" name="as_oq" placeholder="Any of these words:">
-            <input type="text" name="as_eq" placeholder="None of these words:">
-            <input type="submit" value="Advanced Search">
+        <form action="https://www.google.com/search" id="advanced_search" method="GET">
+            <label for="as_q">All these words:</label>
+            <input type="text" name="as_q" id="as_q">
+            <label for="as_epq">This exact word or phrase:</label>           
+            <input type="text" name="as_epq" id="as_epq">
+            <label for="as_oq">Any of these words:</label>
+            <input type="text" name="as_oq" id="as_oq">
+            <label for="as_eq">None of these words:</label>
+            <input type="text" name="as_eq" id="as_eq">
+            <input type="submit" id="button_search" value="Advanced Search">
         </form>
     </main>
 </body>
