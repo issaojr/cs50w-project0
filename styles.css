@@ -7,13 +7,20 @@ nav {
     text-align: right;
     margin: 0;
     padding: 0;
-  }
+}
   
+.advanced-search-nav ul {
+    display: flex; /* Usa Flexbox para o layout */
+    justify-content: space-between; /* Espaça os itens de lista uniformemente */
+    padding: 0;
+    list-style-type: none;
+}
+
 nav li {
     display: inline-block;
     font-size: 1em;
     padding: 0.5em;
-  }
+}
 
 nav li a {
     font-size: 0.8em;
@@ -24,34 +31,33 @@ nav li a {
 
 nav li a:link {    
     text-decoration: none;
-  }
+}
 
 nav li a:active {
     text-decoration: none;
-  }
+}
 
 
 nav li a:visited {
     text-decoration: none;
-  }
+}
 
 nav li a:hover {
     text-decoration: underline;
-  }
+}
 
 #main_search {
     text-align: center;
     row-gap: 0.5em; 
     max-width: 800px;
-    margin-top: 300px;
-    margin: 10em auto 0 auto;
+    margin: 01em auto 0 auto;
 }
 
 #searchBar {    
     width: 90%;
-    padding:0.7em;
+    padding:1.2em;
     border: 1px solid #ccc;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     border-radius: 2em;
 }
 
@@ -67,6 +73,7 @@ nav li a:hover {
 }
 
 #button_search {
+    background-color: #F8F9FA;
     border:1px solid transparent;
     padding:0.8em 1.2em;
     border-radius: 0.3em;
@@ -77,6 +84,7 @@ nav li a:hover {
 }
 
 #button_lucky {
+    background-color: #F8F9FA;
     border:1px solid transparent;
     padding:0.8em 1.2em;
     border-radius: 0.3em;
@@ -129,5 +137,24 @@ nav li a:hover {
     border-radius: 0.1em;
 }
 
+#logo {
+    display: block;
+    margin: auto; 
+    max-width: 100%;
+    height: auto; 
+    margin-top:10em;
+}
 
+#logo_header {
+    height:24px;
+}
 
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.gy3Eif {
+    border-bottom: 1px solid #ebebeb;
+}
